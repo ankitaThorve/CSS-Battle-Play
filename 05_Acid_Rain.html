@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle - Acid Rain</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #315a72;
+        margin-top: 100px;
+      }
+      div {
+        width: 120px;
+        height: 120px;
+        background: #ce5a43;
+        border-radius: 50% 0 50% 50%;
+      }
+      #top-right,
+      #bottom-left {
+        position: relative;
+        background: #f0a599;
+      }
+      #top-right {
+        right: 60px;
+        bottom: 60px;
+        border-radius: 50%;
+        z-index: -1;
+      }
+      #bottom-left {
+        left: 60px;
+        top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bottom-left"></div>
+    <div></div>
+    <div id="top-right"></div>
+  </body>
+</html>
