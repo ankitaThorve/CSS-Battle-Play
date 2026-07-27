@@ -1,13 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Battle - Leafy Trail</title>
-</head>
-<body>
-  <div id="left"></div>
-  <div></div>
-  <div id="right"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Battle - Leafy Trail</title>
+    <style>
+      body {
+        background: #0b2429;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        width: 150px;
+        height: 150px;
+        background: #998235;
+        border-radius: 100px 0px;
+        position: absolute;
+      }
+      #left {
+        background: #1a4341;
+        left: 75px;
+      }
+      #right {
+        background: #f3ac3c;
+        right: 75px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="left"></div>
+    <div></div>
+    <div id="right"></div>
+  </body>
 </html>
